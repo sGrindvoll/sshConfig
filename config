@@ -1,3 +1,37 @@
+### Private hosts
+# GitHub
+Host github.com
+HostName github.com
+User sgrindvoll
+IdentityFile ~/.ssh/github_rsa
+PubkeyAuthentication yes
+
+# HQ Grindvoll - ROMA remote
+Host hq.grindvoll.net
+HostName hq.grindvoll.net
+User sindre
+PubkeyAuthentication no
+Port 2816
+
+# HQ Grindvoll - ROMA local
+Host 10.10.0.2
+HostName 10.10.0.2
+User sindre
+PubkeyAuthentication no
+
+# BitBucket
+Host bitbucket.org
+HostName bitbucket.org
+User mirfax
+IdentityFile ~/.ssh/bitbucket_rsa
+PubkeyAuthentication yes
+
+
+
+
+
+### EVRY related hosts
+# SSH External CosNG
 Host ssh-ext.cosng.net
 User e215006
 PubkeyAuthentication no
@@ -8,24 +42,6 @@ Host 172.30.105.6
 User e215006
 PubkeyAuthentication yes
 IdentityFile ~/.ssh/ghe_rsa
-
-Host hq.grindvoll.net
-HostName hq.grindvoll.net
-User sindre
-PubkeyAuthentication no
-Port 2816
-
-Host github.com
-HostName github.com
-User sgrindvoll
-IdentityFile ~/.ssh/github_rsa
-PubkeyAuthentication yes
-
-Host bitbucket.org
-HostName bitbucket.org
-User mirfax
-IdentityFile ~/.ssh/bitbucket_rsa
-PubkeyAuthentication yes
 
 # JamCracker jumpstation
 Host 146.192.232.48
