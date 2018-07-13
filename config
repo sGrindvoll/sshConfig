@@ -10,14 +10,16 @@ PubkeyAuthentication yes
 Host hq.grindvoll.net
 HostName hq.grindvoll.net
 User sindre
-PubkeyAuthentication no
+PubkeyAuthentication yes
 Port 2816
+IdentityFile ~/.ssh/id_roma
 
 # HQ Grindvoll - ROMA local
 Host 10.10.0.2
 HostName 10.10.0.2
 User sindre
 PubkeyAuthentication no
+IdentityFile ~/.ssh/id_roma
 
 # BitBucket
 Host bitbucket.org
