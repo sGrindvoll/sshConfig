@@ -39,7 +39,7 @@ User e215006
 PubkeyAuthentication no
 DynamicForward 12346
 
-# GitHub
+# GitHub Enterprise
 Host git.evry.cloud
 HostName git.evry.cloud
 User sindreg
@@ -50,7 +50,7 @@ PubkeyAuthentication yes
 Host 172.30.105.6
 User e215006
 PubkeyAuthentication yes
-IdentityFile ~/.ssh/ghe_rsa
+IdentityFile ~/.ssh/ghe-backup_rsa
 
 # Github Enterprise EVRY-GHE01
 Host 172.30.105.4
