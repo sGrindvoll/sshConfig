@@ -18,7 +18,7 @@ IdentityFile ~/.ssh/id_roma
 Host 10.10.0.2
 HostName 10.10.0.2
 User sindre
-PubkeyAuthentication no
+PubkeyAuthentication yes
 IdentityFile ~/.ssh/id_roma
 
 # BitBucket
@@ -44,6 +44,13 @@ Host 172.30.105.6
 User e215006
 PubkeyAuthentication yes
 IdentityFile ~/.ssh/ghe_rsa
+
+# Github Enterprise EVRY-GHE01
+Host 172.30.105.4
+User admin
+PubkeyAuthentication yes
+IdentityFile ~/.ssh/evry-ghe01_rsa
+Port 122
 
 # JamCracker jumpstation
 Host 146.192.232.48
