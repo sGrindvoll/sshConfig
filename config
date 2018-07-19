@@ -43,7 +43,7 @@ DynamicForward 12346
 Host git.evry.cloud
 HostName git.evry.cloud
 User sindreg
-IdentityFile ~/.ssh/github_rsa
+IdentityFile ~/.ssh/ghe_rsa
 PubkeyAuthentication yes
 
 # GitHub Enterprise EVRY-GHEBACKUP01
