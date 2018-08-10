@@ -59,6 +59,12 @@ PubkeyAuthentication yes
 IdentityFile ~/.ssh/evry-ghe01_rsa
 Port 122
 
+# Elements jumpbox
+Host 146.192.232.142
+User sindreg
+PubkeyAuthentication yes
+IdentityFile ~/.ssh/evry-elements
+
 # JamCracker jumpstation
 Host 146.192.232.48
 User sindreg
