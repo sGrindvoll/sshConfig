@@ -59,6 +59,19 @@ PubkeyAuthentication yes
 IdentityFile ~/.ssh/evry-ghe01_rsa
 Port 122
 
+# Github Enterprise EVRY-GHE02
+Host 172.30.105.5
+User admin
+PubkeyAuthentication yes
+IdentityFile ~/.ssh/evry-ghe02_rsa
+Port 122
+
+# Elements elements.visualstudio.com
+Host elements.visualstudio.com
+User sindre.grindvoll
+PubkeyAuthentication yes
+IdentityFile ~/.ssh/evry-elements
+
 # Elements jumpbox
 Host 146.192.232.142
 User sindreg
